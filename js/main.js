@@ -22,7 +22,7 @@ buns.onmouseover = () => {
     buns.setAttribute('src', 'images/topo.jpg');
   } else if (buns.getAttribute('src') === 'images/topo.jpg') {
     buns.setAttribute('src',
-    'images/dog.jpg');
+    'images/dog.JPG');
   } else {
     buns.setAttribute('src', 'images/bunny.jpg');
   }
