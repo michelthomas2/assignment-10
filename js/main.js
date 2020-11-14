@@ -17,14 +17,14 @@ bigImage.onclick = () => {
 let buns = document.querySelector('#bunny');
 
 buns.onmouseover = () => {
-  if (buns.getAttribute('src') === 'images/bunny.jpg')
+  if (buns.getAttribute('src') === 'images/bunny.JPG')
   {
-    buns.setAttribute('src', 'images/topo.jpg');
-  } else if (buns.getAttribute('src') === 'images/topo.jpg') {
+    buns.setAttribute('src', 'images/topo.JPG');
+  } else if (buns.getAttribute('src') === 'images/topo.JPG') {
     buns.setAttribute('src',
     'images/dog.JPG');
   } else {
-    buns.setAttribute('src', 'images/bunny.jpg');
+    buns.setAttribute('src', 'images/bunny.JPG');
   }
 }
 
